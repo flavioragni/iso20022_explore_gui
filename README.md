@@ -1,6 +1,4 @@
-#########################
 ISO20022 EXPLORATION GUI 
-#########################
 
 GUI made with Python and Tkinter to explore ISO20022 Business Model repository.
 The GUI has an interactive autofill search bar that helps the user in the exploration
