@@ -63,7 +63,6 @@ def output_window(term):
             if xml_root.find("./dataDictionary/topLevelDictionaryEntry[@{http://www.omg.org/XMI}id='%s']" % parent_id).attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] == "iso20022:BusinessComponent":
                 #If so print parent name
                 elem_parent.append(str(xml_root.find("./dataDictionary/topLevelDictionaryEntry[@{http://www.omg.org/XMI}id='%s']" % parent_id).attrib['name']))
-                print(elem_parent)
                 try:
                     parent_id = str(xml_root.find("./dataDictionary/topLevelDictionaryEntry[@{http://www.omg.org/XMI}id='%s']" % parent_id).attrib['superType'])
                 except:
