@@ -9,4 +9,4 @@ To use the GUI, start typing the name of a component in the search bar. The GUI 
 PREREQUISITES:
 To generate the list of Business Component, you need to download the ISO20022 e-repository in the same folder as the python script. You can download the e-repository at the ISO20022 website (https://www.iso20022.org/iso20022-repository/e-repository).
 
-FR - 20210702
+fr 2021-07-02
